@@ -17,7 +17,7 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 
 <img src="./docs/hybrid_morph_system_1.png" width="800"/>
 
-*CAGE* :  Automatically generated mesh from 2d frame projection, suitable for soft morphing.
+*CAGE* :  Controller mesh generated from 2d frame projection, suitable for soft morphing.
 
 *SKELETON* :  Extracted heirarchical planes from *CAGE* vertices, suitable for rigid morphing.
 
