@@ -15,8 +15,11 @@ This project and its contents may not be reproduced, distributed, or used withou
 ## Eyewear Frame Morphing System 
 The system uses an original skeleton-cage morphing method.
 <img src="./docs/hybrid_morph_system_1.png" width="800"/>
+
 *CAGE*: Automatically generated mesh from 2d frame projection, suitable for soft morphing.
+
 *SKELETON*: 4 extracted heirarchical planes from *CAGE* vertices, suitable for rigid morphing.
+
 *VERTEX SHADING*: RGBA or CMYK channels where values indicate the weighted position relative to *CAGE* and *SKELETON*
 
 <img src="./docs/hybrid_morph_system_2.png" width="600"/>
