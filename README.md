@@ -23,6 +23,8 @@ This project and its contents may not be reproduced, distributed, or used withou
 
 ### Automated Morphing to Face
 <img src="./docs/control_system.png"  />
+
+#### Visualization on Face
 <img src="./docs/visual.png" width="500" />
 
 ## Final Customization Pipeline
