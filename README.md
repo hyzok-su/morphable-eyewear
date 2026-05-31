@@ -26,10 +26,15 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 <img src="./docs/hybrid_morph_system_2.png" width="600"/>
 
 In this case: 
+
 0: Cage morph.
+
 A: 
+
 R: 
+
 G:
+
 B:
 
 <img src="./docs/hybrid_morph_system_3.png" width="600"/>
