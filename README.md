@@ -1,13 +1,26 @@
-# Morphable Eyewear
-© 2026 hyzok-su. All rights reserved.
+# Morphable Eyewear: Skeleton–Cage Deformation Framework
 
-This project and its contents may not be reproduced, distributed, or used without permission.
+## Overview
+This project presents a skeleton–cage-based geometric deformation method for combined rigid and non-rigid shape transformation with topology preservation.
 
-## 3D Face Data Preparation
+## Code Availability
+Due to NDA restrictions, the source code is not publicly available. This repository provides method descriptions and results only.
+
+## Copyright
+© 2026 All rights reserved. No part of this work may be reproduced or distributed without prior written permission.
+
+## Method
+The pipeline constructs a 2D-to-3D deformation system by:
+- Extracting contour geometry
+- Building a control cage
+- Deriving a skeletal structure
+- Applying landmark-guided deformation
+  
+## 1. 3D Face Data Preparation
 <img src="./docs/scanning.png" width="800"/>
 <img src="./docs/landmarks.png" width="800"/>
 
-## Eyewear Frame Data Preparation
+## 2. Eyewear Frame Data Preparation
 <p>
   <img src="./docs/frame_analysis_1.png" width="50%"/> <img src="./docs/frame_analysis_2.png" width="27.3%" />
 </p>
@@ -40,7 +53,7 @@ B=255: Transform with skeleton node 4.
 
 0-255: Interpolate by weight.
 
-### Automated Generation on Frame
+## 3. Automated Generation on Frame
 <p>
   <img src="./docs/step1.png" width="25%"/><img src="./docs/step2.png" width="25%"/><img src="./docs/step3.png" width="25%"/><img src="./docs/step4.png" width="25%"/>
 </p>
@@ -53,7 +66,7 @@ B=255: Transform with skeleton node 4.
 
 4. The transection lines are then slightly scaled to construct a 2D cage structure. This 2D cage is subsequently reprojected onto the frame geometry, where the intersection bounding domains are computed to extrude the cage into a 3D representation. Finally, a skeleton structure is extracted from the generated 3D cage.
 
-### Automated Morphing to Face
+## 4. Automated Morphing to Face
 
 The skeleton–cage structure is subsequently positioned and deformed using 3D facial landmarks. The figure below illustrates how the geometry is transformed under the influence of landmark constraints.
 
@@ -65,7 +78,7 @@ The deformation is later adjusted according to a fitting plan provided by ophtha
 
 Two rotations are applied to each endpiece. To avoid order-dependent artifacts from Eular angles, we decouple the transformations by applying rotateZ in the local coordinate system and rotateX in the world coordinate system. This ensures the two rotations remain independent and removes ambiguity caused by rotation order
 
-### Visualization on Face
+## 5. Visualization on Face
 <img src="./docs/visual.png" width="500" />
 
 ## Final Customization Pipeline
