@@ -1,5 +1,5 @@
 # Morphable Eyewear
-© 2026 Hyzok Su. All rights reserved.
+© 2026 hyzok-su. All rights reserved.
 
 This project and its contents may not be reproduced, distributed, or used without permission.
 
