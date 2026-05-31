@@ -18,7 +18,7 @@ The system uses an original skeleton-cage morphing method.
 
 *CAGE* :  Automatically generated mesh from 2d frame projection, suitable for soft morphing.
 
-*SKELETON* :  4 extracted heirarchical planes from *CAGE* vertices, suitable for rigid morphing.
+*SKELETON* :  Extracted heirarchical planes from *CAGE* vertices, suitable for rigid morphing.
 
 *VERTEX SHADING* :  RGBA or CMYK channels where values indicate the weighted position relative to *CAGE* and *SKELETON*
 
