@@ -1,5 +1,4 @@
-![UUV Mapping](./docs/frame_analysis_1.png) 
-![UUV Mapping](./docs/frame_analysis_2.png)
+![UUV Mapping](./docs/frame_analysis_1.png) ![UUV Mapping](./docs/frame_analysis_2.png)
 ![UUV Mapping](./docs/hybrid_morph_system_1.png)
 ![UUV Mapping](./docs/hybrid_morph_system_2.png)
 ![UUV Mapping](./docs/hybrid_morph_system_3.png)
