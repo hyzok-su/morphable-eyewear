@@ -32,6 +32,7 @@ A=255: Transform with skeleton node 1.
 R=255: Transform with skeleton node 2.
 G=255: Transform with skeleton node 3.
 B=255: Transform with skeleton node 4.
+0-255: Interpolate by weight.
 
 <img src="./docs/hybrid_morph_system_3.png" width="600"/>
 
