@@ -12,8 +12,8 @@ This project and its contents may not be reproduced, distributed, or used withou
   <img src="./docs/frame_analysis_1.png" width="50%"/> <img src="./docs/frame_analysis_2.png" width="27.3%" />
 </p>
 
-## Eyewear Frame Morphing System 
-The system employs an original skeleton-cage morphing method specifically designed for geometric deformation scenarios in which both soft and rigid transformations coexist.
+## Mesh Deformation: Skeleton-cage Method
+The eyewear frame morphing system employs an original skeleton-cage method specifically designed for geometric deformation scenarios in which both soft and rigid transformations coexist.
 
 <img src="./docs/hybrid_morph_system_1.png" width="800"/>
 
