@@ -13,8 +13,8 @@ This project and its contents may not be reproduced, distributed, or used withou
 
 ## Eyewear Frame Morphing System
 <img src="./docs/hybrid_morph_system_1.png" width="800"/>
-<img src="./docs/hybrid_morph_system_2.png" width="600" />
-<img src="./docs/hybrid_morph_system_3.png" width="600" />
+<img src="./docs/hybrid_morph_system_2.png" width="600"/>
+<img src="./docs/hybrid_morph_system_3.png" width="600"/>
 
 ### Automated Generation on Frame
 <p>
