@@ -13,7 +13,7 @@ This project and its contents may not be reproduced, distributed, or used withou
 </p>
 
 ## Mesh Deformation: Skeleton-cage Method
-The eyewear frame morphing system employs an original skeleton-cage method specifically designed for geometric deformation scenarios in which both soft and rigid transformations coexist.
+The eyewear frame morphing system employs an original skeleton-cage method specifically designed for geometric deformation scenarios in which both soft and rigid transformations coexist. It enables strict joint matching and smoothly blended shape morphing, ensuring both accurate articulation and natural transitional deformations.
 
 <img src="./docs/hybrid_morph_system_1.png" width="800"/>
 
