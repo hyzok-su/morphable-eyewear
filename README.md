@@ -54,6 +54,8 @@ B=255: Transform with skeleton node 4.
 4. The transection lines are then slightly scaled to construct a 2D cage structure. This 2D cage is subsequently reprojected onto the frame geometry, where the intersection bounding domains are computed to extrude the cage into a 3D representation. Finally, a skeleton structure is extracted from the generated 3D cage.
 
 ### Automated Morphing to Face
+
+The skeleton–cage structure is subsequently deformed using 3D facial landmarks to ensure a personalized geometric fit. The deformation is optimized according to a fitting plan provided by ophthalmic specialists, which serves as a clinical guideline for achieving proper alignment with the wearer’s facial anatomy.
 <img src="./docs/control_system.png"  />
 
 ### Visualization on Face
