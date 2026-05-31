@@ -1,5 +1,7 @@
 # Morphable Eyewear: Skeleton–Cage Deformation Framework
 
+<img src="./docs/pipeline.png"/>
+
 ## Overview
 This project presents a skeleton–cage-based geometric deformation method for combined rigid and non-rigid shape transformation with topology preservation.
 
@@ -80,6 +82,3 @@ Two rotations are applied to each endpiece. To avoid order-dependent artifacts f
 
 ## 5. Visualization on Face
 <img src="./docs/visual.png" width="500" />
-
-## Final Customization Pipeline
-<img src="./docs/pipeline.png"/>
