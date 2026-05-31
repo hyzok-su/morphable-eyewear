@@ -21,9 +21,17 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 
 *SKELETON* :  Extracted heirarchical planes from *CAGE* vertices, suitable for rigid morphing.
 
-*VERTEX SHADING* :  RGBA or CMYK channels where values indicate the weighted position relative to *CAGE* and *SKELETON*
+*VERTEX SHADING* :  ARGB or CMYK channels where values indicate the weighted position relative to *CAGE* and *SKELETON*
 
 <img src="./docs/hybrid_morph_system_2.png" width="600"/>
+
+In this case: 
+0: Cage morph.
+A: 
+R: 
+G:
+B:
+
 <img src="./docs/hybrid_morph_system_3.png" width="600"/>
 
 ### Automated Generation on Frame
