@@ -1,7 +1,7 @@
 <img src="./docs/scanning.png" width="800"/>
 <img src="./docs/landmarks.png" width="800"/>
 <p>
-  <img src="./docs/frame_analysis_1.png" width="50%"/> <img src="./docs/frame_analysis_2.png" width="30%" />
+  <img src="./docs/frame_analysis_1.png" width="50%"/> <img src="./docs/frame_analysis_2.png" width="25%" />
 </p>
 <img src="./docs/hybrid_morph_system_1.png" width="800"/>
 <img src="./docs/hybrid_morph_system_2.png" width="600" />
