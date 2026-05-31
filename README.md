@@ -5,4 +5,4 @@
 <img src="./docs/hybrid_morph_system_2.png" width="600" />
 <img src="./docs/hybrid_morph_system_3.png" width="600" />
 <img src="./docs/control_system.png"  />
-<img src="./docs/visual.png" width="600" />
+<img src="./docs/visual.png" width="400" />
