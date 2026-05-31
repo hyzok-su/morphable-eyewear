@@ -28,10 +28,10 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 In this case: 
 
 0: Cage morph.
-A: 
-R: 
-G:
-B:
+A=255: Transform with skeleton node 1.
+R=255: Transform with skeleton node 2.
+G=255: Transform with skeleton node 3.
+B=255: Transform with skeleton node 4.
 
 <img src="./docs/hybrid_morph_system_3.png" width="600"/>
 
