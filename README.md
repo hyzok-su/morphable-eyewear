@@ -6,3 +6,4 @@
 <img src="./docs/hybrid_morph_system_3.png" width="600" />
 <img src="./docs/control_system.png"  />
 <img src="./docs/visual.png" width="500" />
+<img src="./docs/pipeline.png" width="800" />
