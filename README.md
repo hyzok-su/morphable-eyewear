@@ -24,6 +24,7 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 *VERTEX SHADING* :  ARGB or CMYK channels where values indicate the weighted position relative to *CAGE* and *SKELETON*
 
 <img src="./docs/hybrid_morph_system_2.png" width="600"/>
+<img src="./docs/hybrid_morph_system_3.png" width="600"/>
 
 In this case: 
 
@@ -38,8 +39,6 @@ G=255: Transform with skeleton node 3.
 B=255: Transform with skeleton node 4.
 
 0-255: Interpolate by weight.
-
-<img src="./docs/hybrid_morph_system_3.png" width="600"/>
 
 ### Automated Generation on Frame
 <p>
