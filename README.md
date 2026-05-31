@@ -56,6 +56,7 @@ B=255: Transform with skeleton node 4.
 ### Automated Morphing to Face
 
 The skeleton–cage structure is subsequently deformed using 3D facial landmarks to ensure a personalized geometric fit. The deformation is optimized according to a fitting plan provided by ophthalmic specialists, which serves as a clinical guideline for achieving proper alignment with the wearer’s facial anatomy.
+
 <img src="./docs/control_system.png"  />
 
 ### Visualization on Face
