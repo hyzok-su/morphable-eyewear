@@ -27,7 +27,7 @@ The pipeline constructs a 2D-to-3D deformation system by:
   <img src="./docs/frame_analysis_1.png" width="50%"/> <img src="./docs/frame_analysis_2.png" width="27.3%" />
 </p>
 
-Frames can be segmented into different material regions, each requiring distinct deformation behaviors to match facial anatomy.
+Frames can be segmented into different material regions, each requiring distinct deformation behaviors to match facial anatomy. Different transformation method should be applied to each region to ensure manufacturability.
 
 - ***SOFT REGIONS***:  refer to flexible materials, such as 3D-printed nylon, which can undergo continuous geometric deformation and twisting.
 
@@ -35,7 +35,6 @@ Frames can be segmented into different material regions, each requiring distinct
 
 - ***JOINT REGIONS***:  are transitional structures that connect soft and rigid components, such as assembly holes. Although located within deformable areas, these regions must preserve their original geometry to maintain structural compatibility and assembly accuracy.
 
-Different transformation method should be applied to each region to ensure manufacturability.
 
 
 ## Mesh Deformation: Skeleton-cage Method
