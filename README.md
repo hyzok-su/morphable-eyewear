@@ -35,7 +35,7 @@ Frames can be segmented into different material regions, each requiring distinct
 
 - ***JOINT REGIONS***:  are transitional structures that connect soft and rigid components, such as assembly holes. Although located within deformable areas, these regions must preserve their original geometry to maintain structural compatibility and assembly accuracy.
 
-Different transformation method should be applied to each region to ensure facial anatomy fitting and manufacturability.
+Different transformation method should be applied to each region to ensure manufacturability.
 
 
 ## Mesh Deformation: Skeleton-cage Method
