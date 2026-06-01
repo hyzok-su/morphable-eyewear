@@ -27,6 +27,17 @@ The pipeline constructs a 2D-to-3D deformation system by:
   <img src="./docs/frame_analysis_1.png" width="50%"/> <img src="./docs/frame_analysis_2.png" width="27.3%" />
 </p>
 
+Frames can be segmented into different material regions, each requiring distinct deformation behaviors to match facial anatomy.
+
+- **Soft regions** refer to flexible materials, such as 3D-printed nylon, which can undergo continuous geometric deformation and twisting.
+
+- **Rigid regions** refer to traditionally prefabricated components with fixed geometry that should remain undeformed during adaptation.
+
+- **Joint regions** are transitional structures that connect soft and rigid components, such as concavities, slots, and assembly holes. Although located within deformable areas, these regions must preserve their original geometry to maintain structural compatibility and assembly accuracy.
+
+Different transformation method should be applied to each region to ensure facial anatomy fitting and manufacturability.
+
+
 ## Mesh Deformation: Skeleton-cage Method
 The eyewear frame morphing system employs an original *skeleton-cage method* specifically designed for geometric deformation scenarios where both soft and rigid transformations coexist. It enables strict joint matching and smoothly blended shape morphing, ensuring both accurate articulation and natural transitional deformations.
 
