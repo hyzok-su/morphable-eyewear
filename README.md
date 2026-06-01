@@ -87,7 +87,7 @@ B=255: Transform with skeleton node 4.
 
 The skeleton–cage structure is subsequently positioned and deformed using 3D facial landmarks. The figure below illustrates how the geometry is transformed under the influence of landmark constraints.
 
-***The deformation logic:  Skeleton ----> Cage ----> Mesh***
+***The deformation logic :  Skeleton ----> Cage ----> Mesh***
 
 <img src="./docs/control_system.png"  />
 
