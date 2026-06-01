@@ -23,11 +23,12 @@ The pipeline constructs a 2D-to-3D deformation system by:
 <img src="./docs/landmarks.png" width="800"/>
 
 ## 2. Eyewear Frame Data Preparation
+
+Frames can be segmented into different material regions, each requiring distinct deformation behaviors to match facial anatomy. Different transformation method should be applied to each region to ensure manufacturability.
+
 <p>
   <img src="./docs/frame_analysis_1.png" width="50%"/> <img src="./docs/frame_analysis_2.png" width="27.3%" />
 </p>
-
-Frames can be segmented into different material regions, each requiring distinct deformation behaviors to match facial anatomy. Different transformation method should be applied to each region to ensure manufacturability.
 
 - ***SOFT REGIONS***:  refer to flexible materials, such as 3D-printed nylon, which can undergo continuous geometric deformation and twisting.
 
