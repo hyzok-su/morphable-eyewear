@@ -70,7 +70,7 @@ B=255: Transform with skeleton node 4.
 
 0-255: Interpolate by weight.
 
-## 3. Automated Generation on Frame
+## 3. Automated Cage Generation on Frame
 <p>
   <img src="./docs/step1.png" width="25%"/><img src="./docs/step2.png" width="25%"/><img src="./docs/step3.png" width="25%"/><img src="./docs/step4.png" width="25%"/>
 </p>
@@ -83,9 +83,11 @@ B=255: Transform with skeleton node 4.
 
 4. The transection lines are then slightly scaled to construct a 2D cage structure. This 2D cage is subsequently reprojected onto the frame geometry, where the intersection bounding domains are computed to extrude the cage into a 3D representation. Finally, a skeleton structure is extracted from the generated 3D cage.
 
-## 4. Automated Morphing to Face
+## 4. Automated Cage  Morphing to Face
 
 The skeleton–cage structure is subsequently positioned and deformed using 3D facial landmarks. The figure below illustrates how the geometry is transformed under the influence of landmark constraints.
+
+***The deformation logic***: Skeleton ----> Cage ----> Mesh
 
 <img src="./docs/control_system.png"  />
 
