@@ -72,15 +72,27 @@ B=255: Transform with skeleton node 4.
 0-255: Interpolate by weight.
 
 ## 3. Automated Cage Generation on Frame
-<p>
-  <img src="./docs/step1.png" width="25%"/><img src="./docs/step2.png" width="25%"/><img src="./docs/step3.png" width="25%"/><img src="./docs/step4.png" width="25%"/>
+<p align="center">
+  <img src="./docs/step1.png" width="25%"/>
 </p>
 
 1. We first extract the 2D projected outlines of both the lenses and the frame from the input model. Sensor rays are then emitted from each point along the lens outlines toward the frame outline, terminating once they intersect the frame boundary.
 
+<p align="center">
+  <img src="./docs/step2.png" width="25%"/>
+</p>
+
 2. The collection of rays within a specified distance threshold forms a set of regions, while their corresponding intersection points define characteristic curves. These regions and curves allow us to identify and distinguish structural components such as the bridge and endpieces.
 
+<p align="center">
+  <img src="./docs/step3.png" width="25%"/>
+</p>
+
 3. After determining the regions, the outlines are segmented and transected in a predefined order. This process ensures topological consistency and prevents the generation of mismatched or inconsistent topologies during deformation.
+
+<p align="center">
+  <img src="./docs/step4.png" width="25%"/>
+</p>
 
 4. The transection lines are then slightly scaled to construct a 2D cage structure. This 2D cage is subsequently reprojected onto the frame geometry, where the intersection bounding domains are computed to extrude the cage into a 3D representation. Finally, a skeleton structure is extracted from the generated 3D cage.
 
