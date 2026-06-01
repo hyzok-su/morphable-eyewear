@@ -72,6 +72,7 @@ B=255: Transform with skeleton node 4.
 0-255: Interpolate by weight.
 
 ## 3. Automated Cage Generation on Frame
+
 <p align="center">
   <img src="./docs/step1.png" width="25%"/>
 </p>
