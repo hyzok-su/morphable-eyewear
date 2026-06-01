@@ -45,7 +45,7 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 
 ***CAGE*** :  Controller mesh generated from 2d frame projection, suitable for soft morphing.
 
-***CAGE MORPH*** :  Cage based deformation using mean value coordinates system. Paper: [MVC PDF](https://www.inf.usi.ch/hormann/papers/Floater.2003.MVC.pdf?utm_source=chatgpt.com)
+***CAGE MORPH*** :  Cage based deformation using mean value coordinates system. Paper: [MVC PDF](https://people.engr.tamu.edu/schaefer/research/meanvalue.pdf)
 
 ***SKELETON*** :  Extracted heirarchical planes from ***CAGE*** vertices, suitable for rigid morphing.
 
