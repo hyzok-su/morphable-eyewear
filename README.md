@@ -45,11 +45,11 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 
 ***CAGE*** :  Controller mesh generated from 2d frame projection, suitable for soft morphing.
 
-***CAGE MORPH*** :  Cage based deformation using mean value coordinates (MVC). Paper: [Ju, T., Schaefer, S., & Warren, J. , (2005)](https://people.engr.tamu.edu/schaefer/research/meanvalue.pdf)
+***CAGE MORPH*** :  Cage based deformation using mean value coordinates (MVC). Reference: [Ju, T., Schaefer, S., & Warren, J., (2005)](https://people.engr.tamu.edu/schaefer/research/meanvalue.pdf)
 
 ***SKELETON*** :  Extracted heirarchical planes from ***CAGE*** vertices, suitable for rigid morphing.
 
-***SKELETON MORPH*** :  Skeleton based deformation using Linear Blend Skinning (LBS). Paper:
+***SKELETON MORPH*** :  Skeleton based deformation using Linear Blend Skinning (LBS). Reference: [Kavan et al., 2007; Kavan et al., 2008](https://users.cs.utah.edu/~ladislav/kavan07skinning/kavan07skinning.pdf)
 
 ***VERTEX SHADING*** :  ARGB or CMYK channels where values indicate the weighted position relative to ***CAGE*** and ***SKELETON***
 
