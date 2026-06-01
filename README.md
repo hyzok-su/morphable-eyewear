@@ -47,9 +47,9 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 
 ***CAGE MORPH*** :  Cage based deformation using mean value coordinates system. Paper: [MVC PDF](https://www.inf.usi.ch/hormann/papers/Floater.2003.MVC.pdf?utm_source=chatgpt.com)
 
-***SKELETON*** :  Extracted heirarchical planes from *CAGE* vertices, suitable for rigid morphing.
+***SKELETON*** :  Extracted heirarchical planes from ***CAGE*** vertices, suitable for rigid morphing.
 
-***VERTEX SHADING*** :  ARGB or CMYK channels where values indicate the weighted position relative to *CAGE* and *SKELETON*
+***VERTEX SHADING*** :  ARGB or CMYK channels where values indicate the weighted position relative to ***CAGE*** and ***SKELETON***
 
 <img src="./docs/hybrid_morph_system_2.png" width="600"/>
 <img src="./docs/hybrid_morph_system_3.png" width="600"/>
