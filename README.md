@@ -29,9 +29,9 @@ The pipeline constructs a 2D-to-3D deformation system by:
 
 Frames can be segmented into different material regions, each requiring distinct deformation behaviors to match facial anatomy.
 
-- **Soft regions** refer to flexible materials, such as 3D-printed nylon, which can undergo continuous geometric deformation and twisting.
+- ***Soft regions*** refer to flexible materials, such as 3D-printed nylon, which can undergo continuous geometric deformation and twisting.
 
-- **Rigid regions** refer to traditionally prefabricated components with fixed geometry that should remain undeformed during adaptation.
+- ***Rigid regions*** refer to traditionally prefabricated components with fixed geometry that should remain undeformed during adaptation.
 
 - **Joint regions** are transitional structures that connect soft and rigid components, such as concavities, slots, and assembly holes. Although located within deformable areas, these regions must preserve their original geometry to maintain structural compatibility and assembly accuracy.
 
@@ -43,11 +43,11 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 
 <img src="./docs/hybrid_morph_system_1.png" width="800"/>
 
-*CAGE* :  Controller mesh generated from 2d frame projection, suitable for soft morphing.
+***CAGE*** :  Controller mesh generated from 2d frame projection, suitable for soft morphing.
 
-*SKELETON* :  Extracted heirarchical planes from *CAGE* vertices, suitable for rigid morphing.
+***SKELETON*** :  Extracted heirarchical planes from *CAGE* vertices, suitable for rigid morphing.
 
-*VERTEX SHADING* :  ARGB or CMYK channels where values indicate the weighted position relative to *CAGE* and *SKELETON*
+***VERTEX SHADING*** :  ARGB or CMYK channels where values indicate the weighted position relative to *CAGE* and *SKELETON*
 
 <img src="./docs/hybrid_morph_system_2.png" width="600"/>
 <img src="./docs/hybrid_morph_system_3.png" width="600"/>
@@ -87,7 +87,7 @@ The skeleton–cage structure is subsequently positioned and deformed using 3D f
 
 The deformation is later adjusted according to a fitting plan provided by ophthalmic specialists, which serves as a clinical guideline for achieving proper alignment with the wearer’s facial anatomy. 
 
-*EULER ANGLE* :  
+***EULER ANGLE*** :  
 
 Two rotations are applied to each endpiece. To avoid order-dependent artifacts from Eular angles, we decouple the transformations by applying rotateZ in the local coordinate system and rotateX in the world coordinate system. This ensures the two rotations remain independent and removes ambiguity caused by rotation order
 
