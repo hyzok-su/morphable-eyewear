@@ -87,7 +87,7 @@ The skeleton–cage structure is subsequently positioned and deformed using 3D f
 
 The deformation is later adjusted according to a fitting plan provided by ophthalmic specialists, which serves as a clinical guideline for achieving proper alignment with the wearer’s facial anatomy. 
 
-- ***EULER ANGLE*** :  Two rotations are applied to each endpiece. To avoid order-dependent artifacts from Eular angles, we decouple the transformations by applying rotateZ in the local coordinate system and rotateX in the world coordinate system. This ensures the two rotations remain independent and removes ambiguity caused by rotation order
+- ***EULER ANGLE ARTIFACT*** :  Two rotations are applied to each endpiece. To avoid order-dependent artifacts from Eular angles, we decouple the transformations by applying rotateZ in the local coordinate system and rotateX in the world coordinate system. This ensures the two rotations remain independent and removes ambiguity caused by rotation order
 
 ## 5. Visualization on Face
 <img src="./docs/visual.png" width="500" />
