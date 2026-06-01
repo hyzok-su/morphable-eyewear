@@ -51,7 +51,7 @@ The eyewear frame morphing system employs an original *skeleton-cage method* spe
 
 ***SKELETON MORPH*** :  Skeleton based deformation using Linear Blend Skinning (LBS). Reference: [Kavan et al., 2007](https://users.cs.utah.edu/~ladislav/kavan07skinning/kavan07skinning.pdf)
 
-***VERTEX SHADING*** :  ARGB or CMYK channels where values indicate the weighted position relative to ***CAGE*** and ***SKELETON***
+***VERTEX SHADING*** :  ARGB or CMYK channels where values indicate the weighted coordinates relative to ***CAGE*** and ***SKELETON***
 
 <img src="./docs/hybrid_morph_system_2.png" width="600"/>
 <img src="./docs/hybrid_morph_system_3.png" width="600"/>
