@@ -29,11 +29,11 @@ The pipeline constructs a 2D-to-3D deformation system by:
 
 Frames can be segmented into different material regions, each requiring distinct deformation behaviors to match facial anatomy.
 
-- ***Soft regions*** refer to flexible materials, such as 3D-printed nylon, which can undergo continuous geometric deformation and twisting.
+- ***SOFT REGIONS*** refer to flexible materials, such as 3D-printed nylon, which can undergo continuous geometric deformation and twisting.
 
-- ***Rigid regions*** refer to traditionally prefabricated components with fixed geometry that should remain undeformed during adaptation.
+- ***RIGID REGIONS*** refer to traditionally prefabricated components with fixed geometry that should remain undeformed during adaptation.
 
-- **Joint regions** are transitional structures that connect soft and rigid components, such as concavities, slots, and assembly holes. Although located within deformable areas, these regions must preserve their original geometry to maintain structural compatibility and assembly accuracy.
+- ***JOINT REGIONS*** are transitional structures that connect soft and rigid components, such as assembly holes. Although located within deformable areas, these regions must preserve their original geometry to maintain structural compatibility and assembly accuracy.
 
 Different transformation method should be applied to each region to ensure facial anatomy fitting and manufacturability.
 
