@@ -12,11 +12,12 @@ Due to NDA restrictions, the source code is not publicly available. This reposit
 © 2026 All rights reserved. No part of this work may be reproduced or distributed without prior written permission.
 
 ## Method
-The pipeline constructs a 2D-to-3D deformation system by:
-- Extracting contour geometry
-- Building a control cage
-- Deriving a skeletal structure
-- Applying landmark-guided deformation
+The pipeline constructs an original deformation system by combining these techniques:
+- Extracting projected geometry outlines
+- Control cage generation
+- Skeletal skinning (Linear Blend)
+- Cage-based deformation (Mean Value Coordinates)  
+- Landmark-guided deformation
   
 ## 1. 3D Face Data Preparation
 <img src="./docs/scanning.png" width="800"/>
